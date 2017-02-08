@@ -13,7 +13,7 @@ app.use(express.static('public'));
 
 app.get('/hello/world', (req, res) => {
   res.send({
-    message: "Hello test ega  🌏!"
+    message: "Hello test ega from web interface 🌏!"
   })
 });
 
